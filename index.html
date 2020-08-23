@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sivam Porfolio WB</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS used for the project -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper nav-wrapper-style">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="nav__link" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#passions">Interests</a></li>
+            <li><a class="nav__link" href="#about">About Me</a></li>
+            <li><a class="nav__link" href="#work">My Work</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong> Sivam Agarwalla </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Aspiring Software Engineer
+      </p>
+      <img
+        src="img/sivam-body.png"
+        alt="A Picture of Sivam"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My Passions -->
+    <section class="my-passions" id="passions">
+      <h2 class="section__title section__title--passions">My Interests</h2>
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item-style carousel-item" href="#one!">
+          <h3>Web Development</h3>
+          <p style="font-size: larger;">
+            I started my web development journey long ago at my first Hackathon
+            in highschool where I used HTML and CSS to create a static webpage.
+            Looking back, I have come a long way and now have full-stack web
+            development experience. Even after so many years it continues to
+            excite me since it gives me the power to bring visions for
+            applications into reality. On top of that the field forces you to
+            learn and stay on top as it is always involving and introducing
+            powerful frameworks.
+          </p>
+        </div>
+        <div class="carousel-item carousel-item-style" href="#two!">
+          <h3>Machine Learning</h3>
+          <p style="font-size: larger;">
+            The idea behind Artificial Intelligence and its future applications
+            is in my opinion one of the most captivating areas of computer
+            science. This past year I've been spending a lot of time using
+            Python and Tensorflow 2.0 to explore the power to machine learning
+            and nueral networks. More specifically, I am very interested in
+            Reinforcement Learning and Computer Vision and spend time on the
+            side learning about model development.
+          </p>
+        </div>
+        <div class="carousel-item carousel-item-style" href="#three!">
+          <h3>Stock Trading</h3>
+          <p style="font-size: larger;">
+            I began teaching myself about the stock and FOREX markets this
+            summer and have learned a lot about technical analysis and swing
+            trading. This field interests me since I love trying to make logical
+            sense behind the movements of the stock market, and in the future
+            want to explore automated trading systems and try to get an edge in
+            the market using AI. As for now, I make some small trades based on
+            my analysis and am also looking more into the Options market.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I Am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Junior Studying Computer Science & Math
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <img
+        src="img/sivam-formal.png"
+        alt="Captivating picture of Sivam"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Past and Ongoing Projects
+      </p>
+
+      <div class="row">
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/lunar-game.png" />
+              <span class="card-title">3D Lunar Lander Game</span>
+            </div>
+            <div class="card-content cyan lighten-1">
+              <p>
+                Used C++ and OpenFrameworks to create a fully functional 3D
+                Lander-style game that incorporates full physics simulation for
+                movement, octree subdivision for collision and altitude
+                detection, shaders for visual effects, and proper lighting and
+                controls for the user.
+              </p>
+            </div>
+            <div class="card-action cyan lighten-1">
+              <a
+                class="white-text"
+                href="https://github.com/darpan-goyal/GameDesignProject"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/cooked-it.png" />
+              <span class="card-title">Cooked It</span>
+            </div>
+            <div class="card-content cyan lighten-1">
+              <p>
+                Fully designed and created a RESTful API for CookedIt's (a
+                web-based service allowing users to share recipes) backend
+                utilizing Node.js, Express, and MongoDB. Created CRUD routes for
+                users, profiles, and posts. Created auth middleware and used JWT
+                to verify user authentication.
+              </p>
+            </div>
+            <div class="card-action cyan lighten-1">
+              <a
+                class="white-text"
+                href="https://github.com/Telraek/CookedIt-CS160_Group_Project"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/reddit-clone.png" />
+              <span class="card-title black-text">Reddit Clone</span>
+            </div>
+            <div class="card-content cyan lighten-1">
+              <p>
+                I created Reddit Clone, a full-stack application, for Mintbean's
+                50th hackaton over one weekend. I used RedwoodJS, a framework
+                that uses React, Prisma, and GraphQL to make this application,
+                and desgined it using ANT Design. It features a posts wall and a
+                subreddit listing page, and allows the user to create their own
+                posts and subreddits.
+              </p>
+            </div>
+            <div class="card-action cyan lighten-1">
+              <a
+                class="white-text"
+                href="https://github.com/SivamAgarwalla/RedditClone"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/got-broke.png" />
+              <span class="card-title black-text">Got Broke</span>
+            </div>
+            <div class="card-content cyan lighten-1">
+              <p>
+                Got Broke is a cluster-free and simple budgeting application
+                made using purely JAVA. It helps users manage their income,
+                savings, and spendings for a given month. It then displays these
+                results in a summary page, making it convenient for them to
+                easily see their monthly budget.
+              </p>
+            </div>
+            <div class="card-action cyan lighten-1">
+              <a
+                class="white-text"
+                href="https://github.com/SivamAgarwalla/GotBroke"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:sivam.agarwalla@gmail.com" class="footer__link"
+        >sivam.agarwalla@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {
+          fullWidth: true,
+          indicators: true,
+        });
+      });
+    </script>
+  </body>
+</html>
